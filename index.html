@@ -18,21 +18,77 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header class="jumbotron text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks -->
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour1" id="hour1">7 am</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour1" id="task1" ></textarea>
+        <button class="col text-center saveBtn" id="savebtn1">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour2" id="hour2">8 am</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour2" id="task2"></textarea>
+        <button class="col text-center saveBtn" id="savebtn2">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour3" id="hour3">9 am</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour3" id="task3"></textarea>
+        <button class="col text-center saveBtn" id="savebtn3">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour4" id="hour4">8 am</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour4" id="task4"></textarea>
+        <button class="col text-center saveBtn" id="savebtn4">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour5" id="hour5">11 am</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour5" id="task5"></textarea>
+        <button class="col text-center saveBtn" id="savebtn5">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour6" id="hour6">12 pm</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour6" id="task6"></textarea>
+        <button class="col text-center saveBtn" id="savebtn6">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour7" id="hour7">1 pm</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour7" id="task7"></textarea>
+        <button class="col text-center saveBtn" id="savebtn7">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour8" id="hour8">2 pm</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour8" id="task8"></textarea>
+        <button class="col text-center saveBtn" id="savebtn8">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 pt-3 text-right" for="hour9" id="hour9">3 pm</label>
+        <textarea class="col-8 border-top pt-3 pt-3 text-left" name="hour9" id="task9"></textarea>
+        <button class="col text-center saveBtn" id="savebtn9">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 text-right" for="hour10" id="hour10">4 pm</label>
+        <textarea class="col-8 border-top pt-3 text-left" name="hour10" id="task10"></textarea>
+        <button class="col text-center saveBtn" id="savebtn10">save</button>        
+      </section>
+      <section class="row">
+        <label class="col m-0 border-top pt-3 border-bottom text-right" for="hour11" id="hour11">5 pm</label>
+        <textarea class="col-8 border-top pt-3 border-bottom text-left" name="hour11" id="task11"></textarea>
+        <button class="col text-center saveBtn" id="savebtn11">save</button>        
+      </section>      
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

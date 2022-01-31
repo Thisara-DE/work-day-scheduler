@@ -55,16 +55,11 @@ var loadTasks = function() {
     for(var i = 1; i < 12; i++) {
       var task = localStorage.getItem("task" + i);
       var inputEl = document.querySelector("#task" + i);
-      inputEl.value = task;
-      console.log(task, inputEl.value);
+      inputEl.value = task;      
     }
 }
 
 loadTasks();
-
-
-
-
 
 saveBtnEl1.addEventListener("click", saveTask);
 saveBtnEl2.addEventListener("click", saveTask);
